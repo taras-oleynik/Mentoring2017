@@ -9,7 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class WebDriverCreator {
     protected static WebDriver driver;
 
-    private static String browserType = "firefox";
+    private static String browserType = "chrome";
 
 
     public static WebDriver getDriver() {

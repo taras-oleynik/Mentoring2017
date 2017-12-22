@@ -12,7 +12,7 @@ public class BasePage {
 
     WebDriver driver = getDriver();
 
-    public void BasePage(){
+    public  BasePage(){
         PageFactory.initElements(driver,this);
     }
 
